@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@vnextjs/one": ["packages/one/src/index.ts"],
+      "@vnextjs/three": ["packages/three/src/index.ts"],
+      "@vnextjs/two": ["packages/two/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
