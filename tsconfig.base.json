@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@katerina/five": ["packages/five/src/index.ts"],
       "@katerina/four": ["packages/four/src/index.ts"],
       "@vnextjs/one": ["packages/one/src/index.ts"],
       "@vnextjs/three": ["packages/three/src/index.ts"],
